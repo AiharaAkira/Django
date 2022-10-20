@@ -1,14 +1,13 @@
-from http.client import HTTPResponse
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
 
 # Create your views here.
 def index(request):
-    return HTTPResponse('Welcome!')
+    return HttpResponse('Welcome!')
 
 
 def create(request):
-    return HTTPResponse('Create')
+    return HttpResponse('Create')
 
 
 def read(request, id):
-    return HTTPResponse('Read!'+id)
+    return HttpResponse('Read!'+id)
