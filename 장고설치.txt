@@ -1,0 +1,26 @@
+**터미널
+
+-장고 설치
+python(3) -m pip3 install django
+
+-명령어 보기
+django-admin
+
+-프로젝트 생성
+django-admin startproject myproject.
+
+settings.py : 설정 파일
+urls.py : 라우팅
+manage.py : 유틸
+
+-매니지 명령어 보기
+python manage.py
+
+-서버 실행
+python manage.py runserver
+
+-서버 종료 
+ctrl c
+
+-다른 포트로 접속
+python manage.py runserver 8888
