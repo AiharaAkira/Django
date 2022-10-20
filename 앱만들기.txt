@@ -1,0 +1,5 @@
+앱만들기
+django-admin startapp myapp
+
+라우팅
+urls.py >> view >> def
